@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	expr_eval
+%define		pdir	Math
+%define		pnam	expr_eval
 Summary:	Math::expr_eval - an expression evaluator
 Summary(pl):	Math::expr_eval - obliczanie wyra¿eñ
 Name:		perl-Math-expr_eval
