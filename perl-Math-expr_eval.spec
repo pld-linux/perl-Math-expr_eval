@@ -9,12 +9,12 @@ Summary:	Math::expr_eval - an expression evaluator
 Summary(pl):	Math::expr_eval - obliczanie wyra¿eñ
 Name:		perl-Math-expr_eval
 Version:	1.0
-%define	fver	%(echo %{version} | tr . _)
+%define	_ver	%(echo %{version} | tr . _)
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}_%{fver}.zip
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}_%{_ver}.zip
 # Source0-md5:	f4962039a99c1dddf460291b1cf5feff
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
