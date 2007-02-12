@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	expr_eval
 Summary:	Math::expr_eval - an expression evaluator
-Summary(pl):	Math::expr_eval - obliczanie wyraøeÒ
+Summary(pl.UTF-8):   Math::expr_eval - obliczanie wyra≈ºe≈Ñ
 Name:		perl-Math-expr_eval
 Version:	1.0
 %define	_ver	%(echo %{version} | tr . _)
@@ -32,15 +32,15 @@ operators and prefix unary operators, calls to user-provided perl
 functions, a mode for syntax checking only, optimized re-evaluation of
 expressions, multiple symbol tables.
 
-%description -l pl
-Ten modu≥ s≥uøy do obliczania wyraøeÒ. Ma trzy g≥Ûwne cele: wydajno∂Ê,
-rozszerzalno∂Ê i przyjazne dla uøytkownika komunikaty b≥ÍdÛw. Jego
-moøliwo∂ci obejmuj±: standardowe typy danych, operatory arytmetyczne i
-logiczne, warunki, dopasowywanie wzorcÛw, definiowalne typy danych,
+%description -l pl.UTF-8
+Ten modu≈Ç s≈Çu≈ºy do obliczania wyra≈ºe≈Ñ. Ma trzy g≈Ç√≥wne cele: wydajno≈õƒá,
+rozszerzalno≈õƒá i przyjazne dla u≈ºytkownika komunikaty b≈Çƒôd√≥w. Jego
+mo≈ºliwo≈õci obejmujƒÖ: standardowe typy danych, operatory arytmetyczne i
+logiczne, warunki, dopasowywanie wzorc√≥w, definiowalne typy danych,
 definiowalne operatory dwuargumentowe i prefiksowe jednoargumentowe,
-przeci±øone operatory dwuargumentowe i prefiksowe jednoargumentowe,
-wywo≥ania dostarczonych funkcji Perla, tryb do sprawdzania sk≥adni,
-zoptymalizowane ponowne obliczanie wyraøeÒ, wiele tablic symboli.
+przeciƒÖ≈ºone operatory dwuargumentowe i prefiksowe jednoargumentowe,
+wywo≈Çania dostarczonych funkcji Perla, tryb do sprawdzania sk≈Çadni,
+zoptymalizowane ponowne obliczanie wyra≈ºe≈Ñ, wiele tablic symboli.
 
 %prep
 %setup -q -c
