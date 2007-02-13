@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	expr_eval
 Summary:	Math::expr_eval - an expression evaluator
-Summary(pl.UTF-8):   Math::expr_eval - obliczanie wyrażeń
+Summary(pl.UTF-8):	Math::expr_eval - obliczanie wyrażeń
 Name:		perl-Math-expr_eval
 Version:	1.0
 %define	_ver	%(echo %{version} | tr . _)
