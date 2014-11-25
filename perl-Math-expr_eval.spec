@@ -1,21 +1,22 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	expr_eval
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::expr_eval - an expression evaluator
 Summary(pl.UTF-8):	Math::expr_eval - obliczanie wyrażeń
+%define	_ver	%(echo %{version} | tr . _)
 Name:		perl-Math-expr_eval
 Version:	1.0
-%define	_ver	%(echo %{version} | tr . _)
 Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}_%{_ver}.zip
 # Source0-md5:	f4962039a99c1dddf460291b1cf5feff
+URL:		http://search.cpan.org/dist/Math-expr_eval/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	unzip
