@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	expr_eval
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::expr_eval - an expression evaluator
 Summary(pl.UTF-8):	Math::expr_eval - obliczanie wyrażeń
 %define	_ver	%(echo %{version} | tr . _)
